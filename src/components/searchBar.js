@@ -6,7 +6,6 @@ import { withRouter } from 'react-router-dom';
 class SearchBar extends Component {
     
     handleFormSubmit = function({query}) {
-        console.log('try to handle submit query', query)
         this.props.history.push('results');
     }
 
